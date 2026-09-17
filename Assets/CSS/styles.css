@@ -1,0 +1,941 @@
+/* reset */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* global  */
+/* html {
+    scroll-behavior: smooth;
+} */
+
+/* body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #3B2416;
+    background-color: #FAF3E5;
+} */
+
+/* a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+} */
+
+
+/* body  */
+
+/* body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: rgb(30, 20, 9);
+
+} */
+
+/*==========
+header
+=========== */
+/* header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    background-color: antiquewhite;
+    padding: 1.5rem 3rem;
+} */
+
+/* Hamburger button */
+
+/* #hamburger {
+    display: none;
+    font-size: 25px;
+    border: none;
+    background: none;
+    cursor: pointer;
+} */
+
+
+/* Tablet and phone */
+
+/* @media (max-width: 768px) {
+
+    #hamburger {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    nav.active {
+        display: block;
+    }
+
+    .nav_links {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    header {
+        flex-wrap: wrap;
+    }
+
+} */
+
+/* navigation */
+/* nav {
+    display: flex;
+}
+
+.nav_links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav_links a {
+    font-size: medium;
+    font-weight: bold;
+} */
+
+/* logo  */
+/* .logo {
+    font-weight: 700;
+    font-size: x-large;
+
+}
+
+.logo :hover {
+    color: brown;
+} */
+
+/* Login  */
+/* .btns {
+    padding: 10px;
+    margin: 20px;
+    background-color: #746358;
+    border-radius: 10px;
+    width: 100px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+#themeBtn {
+    padding: 10px;
+    box-shadow: 0 8px 22px rgba(59, 36, 22, 0.10);
+    border-radius: 8px;
+    cursor: pointer;
+} */
+
+/*=======
+HERO 
+=========*/
+/* .hero {
+    min-height: 75vh;
+    min-width: 75vw;
+    padding: 4rem 2rem;
+    margin: 0 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #faf3e5;
+    background-color: burlywood;
+    border-radius: 10px;
+}
+
+.hero_content {
+    max-width: 700px;
+    text-align: center;
+}
+
+.hero-img {
+    position: relative;
+}
+
+.hero-img img {
+    width: 100%;
+}
+
+.hero-text {
+    position: absolute;
+
+    top: 60%; 
+    left: 50%;
+    
+
+    text-align: center;
+
+    color: white;
+} */
+
+/*========
+ABOUT 
+========*/
+/* .about-intro {
+    max-width: 700px;
+    margin: auto 0 4rem;
+    line-height: 2;
+    text-align:center;
+} */
+
+/* ABOUT CARDS  */
+/* .cards {
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+
+} */
+/* RESPONSIVE CARDS  */
+/* large screen */
+/* @media (max-width:1024px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+    }
+} */
+
+/* ipad medium screen */
+/* @media (max-width:768px) {
+    .cards {
+        grid-template-columns:1fr;
+        margin: 0 auto;
+    }
+} */
+
+/* small screen */
+/* @media (max-width: 375px) {
+    .cards {
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+} */
+/* CARDDDSSS */
+/* .card {
+    overflow: hidden;
+    background-color: burlywood;
+    border-radius: 14px
+}
+
+.card h4 {
+    text-align: center;
+    color: #3B2416;
+}
+
+.cards :hover {
+    transform: translateY(-7px);
+    transition: transform 0.3s ease;
+}
+
+.card p {
+    padding: 1rem;
+    text-align: center;
+    color: #3B2416;
+    font-size: 16px;
+
+}
+
+.card a {
+
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    color: #FAF3E5;
+    font-size: 0.85rem;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color:#6B7650 ;
+    transition: background-color 0.3s ease;
+}
+
+.card a:hover{
+    background-color: #3B2416;
+}
+
+.contact h2{
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.contact-info{
+    background-color:burlywood;
+    padding: 1rem;
+    margin: 0 4rem;
+    border-radius: 20px;
+}
+
+footer{
+    margin:0 4rem;
+    padding: 4rem 0;
+}
+
+#topBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px; 
+
+    width: 45px;
+    height: 45px;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: #6B7650;
+    color: white;
+
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#topBtn:hover {
+    background-color: #3B2416;
+} */
+
+
+/* DARK MODE */
+
+/* body.dark {
+    background-color: #2b211a;
+    color: #FAF3E5;
+}
+
+body.dark header {
+    background-color: #3B2416;
+}
+
+body.dark .nav_links a {
+    color: #FAF3E5;
+}
+
+body.dark .card {
+    background-color: #4a382b;
+}
+
+body.dark .card h4,
+body.dark .card p {
+    color: #FAF3E5;
+}
+
+body.dark .contact-info {
+    background-color: #4a382b;
+}
+
+body.dark footer {
+    background-color: #17120f;
+} */
+
+/* =====================
+   FOOTER
+===================== */
+
+/* footer {
+    background-color: #3B2416;
+    color: #FAF3E5;
+    padding: 4rem 5% 1rem;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    max-width: 1100px; 
+    margin: 0 auto;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footer-column h3 {
+    font-size: 2rem;
+    color: #D8C49E;
+}
+
+.footer-column h4 {
+    color: #D8C49E;
+    margin-bottom: 0.5rem;
+}
+
+.footer-column a:hover {
+    color: #D8C49E;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid #6B7650;
+} */
+
+
+/* TABLET */
+
+/* @media (max-width: 768px) {
+
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+} */
+
+
+/* PHONE */
+
+/* @media (max-width: 375px) {
+
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+
+} */
+
+/* 
+1. how to do the hamburger menu and i want the navbar to be vertically alligned and the theme button is not working and i want to do a top button that'll scroll the page to the top.
+2. how to do the 4 colummn footer
+3. how to embed writing in image
+4. finally, make my website bearriiifffuuuullll */
+
+
+/* NEATER VERSION  */
+
+/* =========================
+   NEATER VERSION
+========================= */
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBAL */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #3B2416;
+    background-color: #FAF3E5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    background-color: #FAF3E5;
+    padding: 1.2rem 5%;
+    border-bottom: 1px solid #E8D4BA;
+}
+
+/* LOGO */
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.logo a {
+    color: #6B7650;
+}
+
+.logo a:hover {
+    color: #3B2416;
+}
+
+
+/* NAVIGATION */
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav_links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav_links a {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav_links a:hover {
+    color: #6B7650;
+}
+
+
+/* JOIN US BUTTON */
+
+.btns {
+    padding: 10px 18px;
+    background-color: #6B7650;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btns:hover {
+    background-color: #3B2416;
+}
+
+
+/* DARK MODE BUTTON */
+
+#themeBtn {
+    padding: 10px;
+    border: none;
+    background-color: #E8D4BA;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#themeBtn:hover {
+    background-color: #D8C49E;
+}
+
+
+/* HAMBURGER */
+
+#hamburger {
+    display: none;
+    font-size: 25px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    padding: 3rem 5%;
+    background-color: #FAF3E5;
+}
+
+.hero-img {
+    position: relative;
+    max-width: 1100px;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.hero-img img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    max-width: 500px;
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+
+/* =========================
+   ABOUT
+========================= */
+
+.about {
+    padding: 6rem 5%;
+}
+
+.about-intro {
+    max-width: 650px;
+    margin: 0 auto 4rem;
+    text-align: center;
+}
+
+.about-intro h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #3B2416;
+}
+
+.about-intro p {
+    font-size: 1rem;
+}
+
+
+/* =========================
+   CARDS
+========================= */
+
+.cards {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.card {
+    background-color: #E8D4BA;
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #D8C49E;
+}
+
+.card:hover {
+    transform: translateY(-7px);
+    transition: transform 0.3s ease;
+}
+
+.card h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #3B2416;
+}
+
+.card p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    color: #3B2416;
+}
+
+.card a {
+    display: block;
+    background-color: #6B7650;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card a:hover {
+    background-color: #3B2416;
+}
+
+
+/* =========================
+   MENU
+========================= */
+
+.menu {
+    padding: 6rem 5%;
+    background-color: #E8D4BA;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #3B2416;
+}
+
+.menu-items {
+    max-width: 650px;
+    margin: auto;
+}
+
+.drink {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 0;
+    border-bottom: 1px solid #BFA88F;
+    font-weight: bold;
+}
+
+.drink span:last-child {
+    color: #6B7650;
+}
+
+
+/* =========================
+   CONTACT
+========================= */
+
+.contact {
+    padding: 6rem 5%;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.contact-info {
+    max-width: 650px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #E8D4BA;
+    border-radius: 15px;
+}
+
+.contact-info p {
+    margin-bottom: 0.7rem;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background-color: #3B2416;
+    color: #FAF3E5;
+    padding: 4rem 5% 1rem;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footer-column h3 {
+    color: #D8C49E;
+    font-size: 2rem;
+}
+
+.footer-column h4 {
+    color: #D8C49E;
+    margin-bottom: 0.7rem;
+}
+
+.footer-column a:hover {
+    color: #D8C49E;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid #6B7650;
+}
+
+
+/* =========================
+   BACK TO TOP
+========================= */
+
+#topBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    background-color: #6B7650;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#topBtn:hover {
+    background-color: #3B2416;
+}
+
+
+/* =========================
+   DARK MODE
+========================= */
+
+body.dark {
+    background-color: #2b211a;
+    color: #FAF3E5;
+}
+
+body.dark header {
+    background-color: #3B2416;
+}
+
+body.dark .nav_links a {
+    color: #FAF3E5;
+}
+
+body.dark .btns {
+    background-color: #6B7650;
+}
+
+body.dark .hero {
+    background-color: #2b211a;
+}
+
+body.dark .about-intro h2 {
+    color: #FAF3E5;
+}
+
+body.dark .card {
+    background-color: #4a382b;
+}
+
+body.dark .card h4,
+body.dark .card p {
+    color: #FAF3E5;
+}
+
+body.dark .menu {
+    background-color: #3B2416;
+}
+
+body.dark .menu h2 {
+    color: #FAF3E5;
+}
+
+body.dark .contact {
+    background-color: #2b211a;
+}
+
+body.dark .contact-info {
+    background-color: #4a382b;
+}
+
+body.dark footer {
+    background-color: #17120f;
+}
+
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+/* TABLET */
+
+@media (max-width: 1024px) {
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* PHONE */
+
+@media (max-width: 768px) {
+
+    header {
+        flex-wrap: wrap;
+    }
+
+    #hamburger {
+        display: block;
+    }
+
+    nav {
+        display: none;
+        width: 100%;
+    }
+
+    nav.active {
+        display: block;
+    }
+
+    .nav_links {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    .hero-img img {
+        height: 500px;
+    }
+
+    .hero-text {
+        left: 8%;
+    }
+
+    .hero-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* SMALL PHONE */
+
+@media (max-width: 375px) {
+
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+}
