@@ -1,58 +1,72 @@
 # ☕📚 Not Your Regular
 
-**Not Your Regular (NR)** is a cozy, modern reading-lounge concept designed for people who believe that reading is better with a good sip and a comfortable space.
+**Not Your Regular (NR)** is a cozy, modern reading and relaxation space designed for people who believe that reading is better with a good sip and a comfortable environment.
 
-The website combines **books, drinks, relaxation, and personal spaces** into one warm and welcoming experience.
+The concept brings together **books, drinks, relaxation, and thoughtfully designed spaces** where people can sit, read, work, unwind, or simply enjoy some quiet time.
 
-##  About the Project
+---
 
-Not Your Regular was created as a front-end web development project to practice and demonstrate fundamental web development skills.
+## 📖 About the Project
 
-The website presents the concept of a relaxing space where visitors can:
+Not Your Regular was created as a front-end web development project to practice and demonstrate fundamental web development skills while building a website around a unique reading-lounge concept.
 
-- Explore the different spaces available
-- Learn more about Not Your Regular
-- Explore the sips menu
-- Contact the lounge
-- Navigate easily across the website
+The website introduces visitors to the different spaces available and gives them a feel for the atmosphere and experience that Not Your Regular is designed to provide.
+
+Visitors can:
+
+- Learn about Not Your Regular
+- Explore the different reading and relaxation spaces
+- Discover the Sips Menu
+- Find information about the lounge
+- Contact Not Your Regular
+- Navigate easily through the website
 - Switch between light and dark mode
 - Use the responsive navigation menu on smaller screens
 
+---
+
 ## ✨ Features
 
--  **Home Section** – Introduces visitors to the Not Your Regular experience.
--  **About Section** – Explains the concept and the different spaces.
--  **Sips Menu** – Displays available drinks.
--  **Contact Section** – Provides contact information.
--  **Dark Mode** – Allows users to switch between light and dark themes.
--  **Responsive Navigation** – Includes a hamburger menu for smaller screens.
-- ⬆ **Back-to-Top Button** – Makes navigating a longer page easier.
--  **Responsive Design** – The website adapts to different screen sizes.
+- 🏠 Home Section
+- 📖 About Section
+- 🛋️ Reading & Relaxation Spaces
+- ☕ Sips Menu
+- 📞 Contact Section
+- 🌙 Dark Mode
+- 📱 Responsive Navigation
+- ⬆️ Back-to-Top Button
+- 💻 Responsive Design
 
-##  Technologies Used
+---
 
-- **HTML5** – Website structure
-- **CSS3** – Styling and responsive design
-- **JavaScript** – Interactive features
+## 🛠️ Technologies Used
 
-##  Design
+- **HTML5** — website structure
+- **CSS3** — styling, layout, responsiveness, and dark mode
+- **JavaScript** — interactivity and DOM manipulation
 
-The website uses a warm, earthy color palette inspired by cozy cafés, books, and nature.
+---
 
-### Main Colors
+## 🎨 Design
 
-- Deep Brown — `#3B2416`
-- Sage Green — `#6B7650`
-- Warm Cream — `#FAF3E5`
-- Light Caramel — `#E8D4BA`
-- Soft Gold — `#D8C49E`
+The website uses a warm, earthy colour palette to create a calm and comfortable reading-lounge atmosphere.
 
-The goal was to create a calm and comfortable visual experience rather than a bright or overly complicated interface.
+| Colour | Hex Code |
+|---|---|
+| Deep Brown | `#3B2416` |
+| Sage Green | `#6B7650` |
+| Warm Cream | `#FAF3E5` |
+| Light Caramel | `#E8D4BA` |
+| Soft Gold | `#D8C49E` |
 
-##  Project Structure
+The overall design focuses on **warmth, simplicity, comfort, and relaxation**.
+
+---
+
+## 📂 Project Structure
 
 ```text
-Not-Your-Regular/
+Not ur regular code/
 │
 ├── index.html
 │
@@ -64,60 +78,7 @@ Not-Your-Regular/
 │   │   └── scripts.js
 │   │
 │   └── Images/
-│       └── ...
+│       └── website images
 │
+├── .gitignore
 └── README.md
-```
-
-##  Responsive Design
-
-Not Your Regular was designed to work across:
-
-- 💻 Desktop
-- 📱 Mobile
-- 📲 Tablet
-
-The navigation, cards, footer, and hero section adjust to smaller screen sizes using CSS media queries.
-
-##  What I Practiced
-
-While building this project, I practiced:
-
-- Structuring a website with HTML
-- Styling pages with CSS
-- CSS Flexbox
-- CSS Grid
-- Responsive design
-- Media queries
-- Linking sections using HTML anchors
-- Basic JavaScript DOM interaction
-- Event listeners
-- Toggling CSS classes
-- Creating a mobile hamburger menu
-- Creating a dark mode button
-- Creating a back-to-top button
-- Organizing website files and assets
-
-## Future Improvements
-
-Some features that could be added in the future include:
-
-- Online booking
-- User registration
-- A proper drinks ordering system
-- More interactive menu sections
-- A gallery of the different spaces
-- Form validation
-- Backend functionality
-- Database integration
-
-## 👩🏽‍💻 Author
-
-**Chika Ekwe**
-
-Computer Science Student  
-Coal City University
-
----
-
-> **Not Your Regular — Where every sip has a story. ☕📖**
